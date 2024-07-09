@@ -438,6 +438,7 @@ p {
   flex-direction: column;
 }
 
+/* 1 */
 .footer_frame .footer_media_main .footer_spec_title {
   font-family: var(--font);
   font-style: normal;

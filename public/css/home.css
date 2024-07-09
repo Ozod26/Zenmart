@@ -50,7 +50,7 @@
 }
 
 /* PAGINATION  */
-.container .pagination_box {
+.container .pagionation_box {
   margin-top: 30px;
   width: 100%;
   height: auto;
@@ -60,21 +60,21 @@
   justify-content: center;
 }
 
-.container .pagination_box .pagination_main {
+.container .pagionation_box .pagination_main {
   width: auto;
   height: 24px;
 
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* justify-content: space-between; */
 }
-.pagination_main img {
+
+.container .pagination_main img {
   cursor: pointer;
 }
 
 .container .pagination_main .pagination_dot {
-  margin-top: 0 20px;
+  margin: 0 20px;
   display: flex;
   flex-direction: row;
 }
@@ -90,13 +90,13 @@
 }
 
 .container .pagination_dot .dot.active {
-  border: 2px solid #112137;
+  border: 2px solid rgb(17, 33, 55);
 }
 
 .container .pagination_dot .dot div {
   width: 4px;
   height: 4px;
-  background: #100f0f;
+  background: rgb(17, 33, 55);
 }
 
 /* Hamma joyda ishlashi uchun pastdagini kochirib oldik */
